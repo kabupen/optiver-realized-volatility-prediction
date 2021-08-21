@@ -27,8 +27,16 @@ root mean square percentage error
 
 - データの読み込み
 - volatiryの予測を行うコンペ
-  - ボラリティとは一般的には、価格変動の度合いを示す言葉。ボラリティが大きい、とは価格変動が大きいことを指す
+  - ボラティリティとは一般的には、価格変動の度合いを示す言葉。ボラリティが大きい、とは価格変動が大きいことを指す
 - オーダーブックについて
   - 左に買い(bid#)、右に売り(ask#)が記録されているリストを order book とよぶ
 
 
+## 2021/08/21
+
+- https://www.kaggle.com/ragnar123/optiver-realized-volatility-lgbm-baseline に従って、LightGBMを回した
+  - ローカルPCでやったので、stock_id =0 だけだが、大方は理解
+  - 今後はこのモデルを叩き台にして、特徴量を増やしていくか？
+  - とりあえず、Kaggle notebook でGPU使って回す
+  - LightGBMで何が効いているか、変数のランキングを作成する
+す
