@@ -39,4 +39,12 @@ root mean square percentage error
   - 今後はこのモデルを叩き台にして、特徴量を増やしていくか？
   - とりあえず、Kaggle notebook でGPU使って回す
   - LightGBMで何が効いているか、変数のランキングを作成する
-す
+
+## 2021/08/22
+
+- `nb02_eda_ver1.ipynb` の作成
+  - EDA を行った
+  - `orvp_utils.py` を作成し、よく使用する関数を本ファイルにまとめた
+    - このファイルを作成するときは、Kaggle notebookならuploadする、ローカルならパスを通すのが必要
+    - `export PYTHONPATH=`pwd`/src/:$PYTHONPATH`
+[] LightGBMの詳細を見る 
