@@ -48,3 +48,10 @@ root mean square percentage error
     - このファイルを作成するときは、Kaggle notebookならuploadする、ローカルならパスを通すのが必要
     - `export PYTHONPATH=`pwd`/src/:$PYTHONPATH`
 [] LightGBMの詳細を見る 
+
+
+## 2021/08/30
+
+- `nb04` 作成
+  - よく分からなくなったので、再度簡単なインストラクション付きの学習用ノートの作成を行った。
+  - 銅メダル圏内のRMSPE のスコアを確認した（現状、師匠の0.23がベスト？）
